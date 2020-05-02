@@ -1,4 +1,4 @@
-package factoryMethod;
+package FactoryMethod;
 
 public class ConcreteProduct implements Product {
 

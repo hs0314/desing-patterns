@@ -1,4 +1,4 @@
-package factoryMethod;
+package FactoryMethod;
 
 public class ConcreteCreator implements Creator {
 

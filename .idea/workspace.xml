@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3ffe382-cea3-40e3-8851-679cfe0040c0" name="Default Changelist" comment="" />
+    <list default="true" id="d3ffe382-cea3-40e3-8851-679cfe0040c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Factory/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Factory/ComputerFactoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Factory/LGComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Factory/SamsungComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/LGKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/LGMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/SamsungKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/SamsungMouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/factoryMethod/factoryMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/factoryMethod/factoryMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factoryMethod/ConcreteCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/ConcreteCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factoryMethod/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/ConcreteProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factoryMethod/ConcreteProduct2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/ConcreteProduct2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factoryMethod/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factoryMethod/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factoryMethod/factoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/factoryMethod.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +38,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bImBshsLoRNmNWFcjJ2lZNIODH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AbstractFactory" />
       <recent name="factoryMethod" />
     </key>
   </component>
@@ -38,13 +68,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="factoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryMethod.factoryMethod" />
+  <component name="RunManager" selected="Application.AbstractFactory">
+    <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractFactory.AbstractFactory" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factoryMethod.*" />
+          <option name="PATTERN" value="AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="factoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryMethod.factoryMethod" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactory" />
         <item itemvalue="Application.factoryMethod" />
       </list>
     </recent_temporary>
@@ -68,11 +112,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588327849209</updated>
-      <workItem from="1588327856482" duration="1847000" />
+      <workItem from="1588327856482" duration="6312000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

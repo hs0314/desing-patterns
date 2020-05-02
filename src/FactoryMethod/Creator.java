@@ -1,4 +1,4 @@
-package factoryMethod;
+package FactoryMethod;
 
 // product factory
 public interface Creator {
