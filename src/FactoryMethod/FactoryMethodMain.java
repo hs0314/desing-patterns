@@ -1,6 +1,6 @@
 package FactoryMethod;
 
-public class factoryMethod {
+public class FactoryMethodMain {
 
     public static void main(String []args){
         Creator creator = new ConcreteCreator();

@@ -3,7 +3,7 @@ package AbstractFactory;
 import AbstractFactory.Factory.ComputerFactory;
 import AbstractFactory.Factory.ComputerFactoryService;
 
-public class AbstractFactory {
+public class AbstractFactoryMain {
     public static void main(String[] args){
 
         ComputerFactoryService computerFactoryService = new ComputerFactoryService();

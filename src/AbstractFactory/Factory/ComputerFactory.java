@@ -1,6 +1,5 @@
 package AbstractFactory.Factory;
 
-import AbstractFactory.AbstractFactory;
 import AbstractFactory.Product.Keyboard;
 import AbstractFactory.Product.Mouse;
 
