@@ -1,34 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3ffe382-cea3-40e3-8851-679cfe0040c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Factory/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Factory/ComputerFactoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Factory/LGComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Factory/SamsungComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/LGKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/LGMouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/SamsungKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Product/SamsungMouse.java" afterDir="false" />
+    <list default="true" id="d3ffe382-cea3-40e3-8851-679cfe0040c0" name="Default Changelist" comment="- 전략패턴 예제 추가">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/inflearn/Anchor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/inflearn/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/inflearn/ShipPartsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/inflearn/Wheel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/inflearn/WhiteAnchor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/inflearn/WhiteWheel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/inflearn/WhiteshipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/inflearn/WhiteshipPartsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/BuilderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/DefaultTourPlanBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/TourDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/TourPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/TourPlanBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factoryMethod/inflearn/BlackShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factoryMethod/inflearn/BlackShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factoryMethod/inflearn/FactoryMethodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factoryMethod/inflearn/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factoryMethod/inflearn/ShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factoryMethod/inflearn/WhiteShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factoryMethod/inflearn/WhiteShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/GithubIssue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/GithubRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/PrototypeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/SingletonMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/factoryMethod/factoryMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/factoryMethod/factoryMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/ConcreteCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/ConcreteCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/ConcreteProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/ConcreteProduct2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/ConcreteProduct2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/Creator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/factoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryMethod/factoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Factory/ComputerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Factory/ComputerFactoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Factory/LGComputerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Factory/SamsungComputerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Product/Keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Product/LGKeyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Product/LGMouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Product/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Product/SamsungKeyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/AbstractFactory/Product/SamsungMouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/FactoryMethod/ConcreteCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/FactoryMethod/ConcreteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/FactoryMethod/ConcreteProduct2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/FactoryMethod/Creator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/FactoryMethod/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/META-INF/design-patterns.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/factoryMethod/factoryMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/AbstractFactoryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Factory/ComputerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Factory/ComputerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Factory/ComputerFactoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Factory/ComputerFactoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Factory/LGComputerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Factory/LGComputerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Factory/SamsungComputerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Factory/SamsungComputerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Product/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Product/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Product/LGKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Product/LGKeyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Product/LGMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Product/LGMouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Product/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Product/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Product/SamsungKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Product/SamsungKeyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Product/SamsungMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/self/Product/SamsungMouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/ConcreteCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factoryMethod/self/ConcreteCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factoryMethod/self/ConcreteProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/ConcreteProduct2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factoryMethod/self/ConcreteProduct2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factoryMethod/self/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/FactoryMethodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factoryMethod/self/FactoryMethodMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factoryMethod/self/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/BillingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/BillingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/HappyHourStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/HappyHourStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/NormalStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/NormalStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/StrategyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/StrategyMain.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,40 +95,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1bImBshsLoRNmNWFcjJ2lZNIODH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="abstractFactory.inflearn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tedle\Dev\desing-patterns\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="abstractFactory.inflearn" />
       <recent name="AbstractFactory" />
       <recent name="factoryMethod" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AbstractFactory">
-    <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractFactory.AbstractFactory" />
+  <component name="RunManager" selected="Application.PrototypeMain">
+    <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractFactory.self.AbstractFactoryMain" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AbstractFactory.*" />
+          <option name="PATTERN" value="abstractFactory.self.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +149,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="factoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryMethod.factoryMethod" />
+    <configuration name="BuilderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="builder.BuilderMain" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryMethod.*" />
+          <option name="PATTERN" value="builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethodMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factoryMethod.inflearn.FactoryMethodMain" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factoryMethod.inflearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrototypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prototype.PrototypeMain" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.SingletonMain" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +203,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AbstractFactory" />
-        <item itemvalue="Application.factoryMethod" />
+        <item itemvalue="Application.PrototypeMain" />
+        <item itemvalue="Application.BuilderMain" />
+        <item itemvalue="Application.FactoryMethodMain (1)" />
+        <item itemvalue="Application.SingletonMain" />
+        <item itemvalue="Application.AbstractFactoryMain" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -114,6 +224,14 @@
       <updated>1588327849209</updated>
       <workItem from="1588327856482" duration="6312000" />
     </task>
+    <task id="LOCAL-00001" summary="- 전략패턴 예제 추가">
+      <created>1637242781607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637242781607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,5 +247,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- 전략패턴 예제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 전략패턴 예제 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/singleton/SingletonMain.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
