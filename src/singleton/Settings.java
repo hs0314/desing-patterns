@@ -38,4 +38,7 @@ public class Settings implements Serializable {
     public static Settings getInstanceStaticInner(){
         return SettingsHolder.INSTANCE;
     }
+
+
+    // 4. ENUM 사용
 }

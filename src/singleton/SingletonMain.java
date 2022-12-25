@@ -9,6 +9,7 @@ public class SingletonMain {
         Settings settings1 = Settings.getInstanceSimple();
         Settings settings2 = Settings.getInstanceDoubleCheckedLocking();
         Settings settings3 = Settings.getInstanceStaticInner();
+        SettingsEnum settings4 = SettingsEnum.INSTANCE; // 리플렉션, 직렬화등에도 안전한 방법
         System.out.println("basic : " + (settings1 == settings1));
 
 
@@ -32,5 +33,6 @@ public class SingletonMain {
             deserializedObj = (Settings) in.readObject();
         }
         System.out.println("case2 : " + (settings2 == deserializedObj));
+
     }
 }
