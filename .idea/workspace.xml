@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3ffe382-cea3-40e3-8851-679cfe0040c0" name="Default Changelist" comment="- 전략패턴 예제 추가">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/AccountUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/AccountUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/AdapterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/client/LoginHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/client/UserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/client/UserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/SettingsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d3ffe382-cea3-40e3-8851-679cfe0040c0" name="Default Changelist" comment="어댑터 패턴 정리">
+      <change afterPath="$PROJECT_DIR$/src/bridge/BridgeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Champion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/DefaultChampion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/KDA스킨.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Skin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/아리.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/정복자스킨.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/CompositeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/self/FactoryMethodMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleton/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleton/SingletonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/SingletonMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,18 +72,33 @@
       <recent name="C:\Users\tedle\Dev\desing-patterns\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="composite" />
+      <recent name="bridge" />
       <recent name="abstractFactory.inflearn" />
       <recent name="AbstractFactory" />
       <recent name="factoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdapterMain">
+  <component name="RunManager" selected="Application.CompositeMain">
     <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.AdapterMain" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.BridgeMain" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryMethod.inflearn.FactoryMethodMain" />
+    <configuration name="CompositeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.CompositeMain" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factoryMethod.inflearn.*" />
+          <option name="PATTERN" value="composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.SingletonMain" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositeMain" />
+        <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.PrototypeMain" />
         <item itemvalue="Application.BuilderMain" />
-        <item itemvalue="Application.FactoryMethodMain (1)" />
-        <item itemvalue="Application.SingletonMain" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637242781607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="어댑터 패턴 정리">
+      <created>1671982242238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671982242238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- 전략패턴 예제 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="- 전략패턴 예제 추가" />
+    <MESSAGE value="어댑터 패턴 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="어댑터 패턴 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
